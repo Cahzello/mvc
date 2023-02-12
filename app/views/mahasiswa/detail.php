@@ -4,7 +4,7 @@
         <div class="card-body">
             <h5 class="card-title"><?= $data['mhs'] ['nama'];  ?></h5>
             <h6 class="card-subtitle mb-2 text-muted"><?= $data['mhs'] ['band'];  ?></h6>
-            <p class="card-text"><?= $data['mhs'] ['role'];  ?></p>
+            <p class="card-text"><?= $data['mhs'] ['rol'];  ?></p>
             <a href="<?= BASEURL; ?>/mahasiswa" class="card-link text-decoration-none">Kembali</a>
         </div>
     </div>
